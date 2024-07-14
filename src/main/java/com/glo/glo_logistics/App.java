@@ -14,7 +14,7 @@ public class App
 {
     public static void main( String[] args )
     {
-//    	System.out.println("heloo world");
+    	//System.out.println("heloo world ....");
     	 ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
 
          FleetService fleetService = (FleetService) context.getBean("fleetService");
